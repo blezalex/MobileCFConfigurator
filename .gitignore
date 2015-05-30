@@ -1,6 +1,3 @@
-##
-## This file is the suggested default .gitignore to be used by cca applications
-##
 
 # Usually, you shouldn't version control `platforms/` and `plugins/`. They are
 # build artefacts which change from machine to machine and over time.
@@ -30,4 +27,3 @@ xcuserdata
 DerivedData
 *.hmap
 *.ipa
-*.xcuserstate
