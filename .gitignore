@@ -1,0 +1,33 @@
+##
+## This file is the suggested default .gitignore to be used by cca applications
+##
+
+# Usually, you shouldn't version control `platforms/` and `plugins/`. They are
+# build artefacts which change from machine to machine and over time.
+# If you are manually making edits in these folders, proceed with caution.
+/platforms/
+/plugins/
+
+# Other cca artefacts.
+/.cordova/
+/cca
+/cca.cmd
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate

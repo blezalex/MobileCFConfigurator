@@ -1,0 +1,85 @@
+.tab-ports {
+    position: relative;
+}
+
+#tab-ports-templates {
+    display: none;
+}
+
+.tab-ports .help {
+    padding: 10px;
+    background-color: #ffcb18;
+    margin-bottom: 10px;
+}
+
+.tab-ports table {
+    margin-bottom: 10px;
+
+    border-collapse: collapse;
+}
+.tab-ports table,
+.tab-ports table th,
+.tab-ports table td {
+    padding: 4px;
+    border: 1px solid #8b8b8b;
+}
+.tab-ports table tr td:first-child {
+    text-align: center;
+}
+.tab-ports table td {
+    padding: 2px 10px;
+}
+
+.tab-ports table thead tr:first-child,
+.tab-ports table tr:nth-child(even) {
+    background-color: #ececec;
+}
+
+.tab-ports .function input {
+    vertical-align: -2px;
+}
+
+.tab-ports .function label {
+    margin-right: 5px;
+}
+
+.tab-ports select {
+    border: 1px solid silver;
+}
+
+.tab-ports .save {
+    display: block;
+    float: right;
+
+    height: 28px;
+    line-height: 28px;
+
+    padding: 0 15px 0 15px;
+
+    text-align: center;
+    font-weight: bold;
+
+    border: 1px solid silver;
+    background-color: #ececec;
+}
+.tab-ports .save:hover {
+    background-color: #dedcdc;
+}
+
+.tab-ports .note {
+    padding: 5px;
+    border: 1px dashed silver;
+    margin-bottom: 8px;
+}
+.require-support {
+    display:none;
+}
+.tab-ports.supported .require-support {
+    display:block;
+}
+.require-upgrade {
+    display:block;
+}
+.tab-ports.supported .require-upgrade {
+    display:none;
+}

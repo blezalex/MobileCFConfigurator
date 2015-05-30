@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?><widget id="com.your.company.CleanflightConfigurator" version="0.63.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Cleanflight - Configurator</name>
+    <description>Crossplatform configuration tool for Cleanflight flight control system</description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">Hydra</author>
+    <content src="plugins/org.chromium.bootstrap/chromeapp.html"/>
+    
+    <preference name="Fullscreen" value="true"/>
+    <preference name="EnableViewportScale" value="true"/>
+    
+<preference name="android-minSdkVersion" value="14"/><access origin="https://www.google-analytics.com/*"/><access origin="https://*.github.com/*"/><access origin="https://*.githubusercontent.com/*"/><access origin="http://*.baseflight.net/*"/><access origin="http://*.cleanflight.com/*"/><access origin="https://*.amazonaws.com/*"/><access origin="ws://192.168.4.1/*"/><access origin="ws://*/*"/><platform name="android"><icon src="www/images/icon_128.png"/><icon src="www/images/icon_128.png" width="128"/></platform><platform name="ios"><icon src="www/images/icon_128.png"/><icon src="www/images/icon_128.png" width="128"/></platform></widget>
